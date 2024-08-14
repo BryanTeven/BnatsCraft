@@ -1,0 +1,81 @@
+:root {
+    --color_1: #FFEACF;
+}
+
+
+@font-face {
+    font-family: studly;
+    src: url('font/StudlyRegular.ttf');
+}
+
+@font-face {
+    font-family: railey ;
+    src: url('font/Railey-PersonalUse.ttf');
+}
+
+body {
+    font-family: "Sniglet", system-ui;
+    font-size: 1.1rem;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-family: railey;
+    font-size: 2rem;
+    
+    
+}
+
+
+
+.home {
+    position: relative;
+    min-height: 100vh;
+    background-color: var(--color_1);
+}
+
+
+
+/* Extra Large */
+@media (max-width: 1200px) {
+
+
+}
+
+/* laptop */
+@media (max-width: 992px) {
+
+    html {
+        font-size: 80%;
+    }
+
+    .nav-sosmed {
+
+        display: none !important;
+    }
+
+
+
+}
+
+/* tablet */
+@media (max-width: 768px) {
+
+    html {
+        font-size: 75%;
+    }
+
+
+
+}
+
+/* mobile phone */
+
+@media (max-width: 576px) {
+
+    html {
+        font-size: 70%;
+    }
+
+
+}
