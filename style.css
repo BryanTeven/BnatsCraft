@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: railey ;
+    font-family: railey;
     src: url('font/Railey-PersonalUse.ttf');
 }
 
@@ -22,8 +22,8 @@ body {
 .navbar-brand {
     font-family: railey;
     font-size: 2rem;
-    
-    
+
+
 }
 
 
@@ -34,13 +34,15 @@ body {
     background-color: var(--color_1);
 }
 
+.home p {
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
 
 
 /* Extra Large */
-@media (max-width: 1200px) {
-
-
-}
+@media (max-width: 1200px) {}
 
 /* laptop */
 @media (max-width: 992px) {
