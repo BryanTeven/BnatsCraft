@@ -13,31 +13,103 @@
     src: url('font/Railey-PersonalUse.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+nav,
+header,
+section,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
 body {
     font-family: "Sniglet", system-ui;
     font-size: 1.1rem;
     font-style: normal;
 }
 
+.navbar {
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+}
+
+
 .navbar-brand {
     font-family: railey;
     font-size: 2rem;
-
-
 }
 
+header {
 
-
-.home {
-    position: relative;
-    min-height: 100vh;
     background-color: var(--color_1);
+    height: 100vh;
 }
 
-.home p {
-    font-size: 2rem;
-    margin-left: 3rem;
+header img {
+    max-width: 100%;
 }
+
+header h1 {
+    color: #534439;
+}
+
+.bold {
+    font-family: studly;
+}
+
+header a {
+    color: white !important;
+    background-color: #534439 !important;
+}
+
+header a:hover {
+    color: white !important;
+    background-color: #7d6758 !important;
+}
+
+header,
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+section {
+    height: 100vh
+}
+
+header div.kiri,
+header div.kanan {
+    width: 50%;
+    padding: 2rem;
+}
+
+
+
+.about h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.about img {
+    max-width: 80%;
+}
+
+.about div.logo,
+.about div.deskripsi {
+    width: 50%;
+    padding: 2rem;
+}
+
 
 
 
@@ -77,6 +149,13 @@ body {
 
     html {
         font-size: 70%;
+    }
+
+    header div.kiri,
+    header div.kanan {
+        width: 80%;
+        padding: 2rem;
+        text-align: center;
     }
 
 
